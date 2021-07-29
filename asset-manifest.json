@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/meal-app-sampabox/static/css/main.6aacfc8d.chunk.css",
+    "main.js": "/meal-app-sampabox/static/js/main.c8a5da48.chunk.js",
+    "main.js.map": "/meal-app-sampabox/static/js/main.c8a5da48.chunk.js.map",
+    "runtime-main.js": "/meal-app-sampabox/static/js/runtime-main.0fc64ef3.js",
+    "runtime-main.js.map": "/meal-app-sampabox/static/js/runtime-main.0fc64ef3.js.map",
+    "static/js/2.0fe8f156.chunk.js": "/meal-app-sampabox/static/js/2.0fe8f156.chunk.js",
+    "static/js/2.0fe8f156.chunk.js.map": "/meal-app-sampabox/static/js/2.0fe8f156.chunk.js.map",
+    "index.html": "/meal-app-sampabox/index.html",
+    "static/css/main.6aacfc8d.chunk.css.map": "/meal-app-sampabox/static/css/main.6aacfc8d.chunk.css.map",
+    "static/js/2.0fe8f156.chunk.js.LICENSE.txt": "/meal-app-sampabox/static/js/2.0fe8f156.chunk.js.LICENSE.txt",
+    "static/media/isvec-kofte.b0ce9d20.jpg": "/meal-app-sampabox/static/media/isvec-kofte.b0ce9d20.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fc64ef3.js",
+    "static/js/2.0fe8f156.chunk.js",
+    "static/css/main.6aacfc8d.chunk.css",
+    "static/js/main.c8a5da48.chunk.js"
+  ]
+}
