@@ -1,0 +1,21 @@
+/*  Adding Tailwwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link li {
+  @apply w-max;
+  @apply hover:text-blue-400;
+}
+
+.dropdown option {
+  @apply -bg--main-color;
+  @apply text-white;
+  @apply hover:bg-red-500;
+}
