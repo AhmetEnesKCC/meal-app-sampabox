@@ -37,7 +37,7 @@ const OrderModal = () => {
         <div className="grid  md:grid-cols-3 py-10 ">
           <img
             className="w-1/2 mx-auto  sm:p-5 hidden md:block"
-            src={"../" + selectedMenu.image}
+            src={selectedMenu.image}
             alt={selectedMenu.name}
           />
 

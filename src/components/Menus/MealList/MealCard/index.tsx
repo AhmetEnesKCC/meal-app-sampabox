@@ -27,7 +27,7 @@ const MenuCard: FC<Props> = ({ menu }) => {
       <div className="mr-5 overflow-hidden w-full">
         <img
           className="transform hover:scale-110 transition duration-700"
-          src={"../" + menu.image}
+          src={menu.image}
           alt={menu.caption}
         />
       </div>
