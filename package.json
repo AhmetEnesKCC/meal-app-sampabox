@@ -2,6 +2,7 @@
   "name": "meal-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ahmeteneskcc.github.io/meal-app-sampabox/",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@heroicons/react": "^1.0.3",
@@ -33,7 +34,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
