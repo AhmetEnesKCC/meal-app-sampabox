@@ -2,7 +2,6 @@
   "name": "meal-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ahmeteneskcc.github.io/meal-app-sampabox/",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@heroicons/react": "^1.0.3",

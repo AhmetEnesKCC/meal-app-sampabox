@@ -25,7 +25,7 @@ const Header = () => {
       <Information />
       <div className="text-center flex justify-between items-center h-12 py-8 px-10 md:px-0">
         <Logo />
-        <div className="flex justify-between w-60">
+        <div className="flex justify-between w-48 sm:w-60">
           {links.map((link) => (
             <HeaderLink
               key={link.name}

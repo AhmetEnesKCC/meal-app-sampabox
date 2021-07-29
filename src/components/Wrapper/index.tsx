@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
 import Home from "components/Home";
 import Footer from "components/Footer";
@@ -8,7 +8,7 @@ import Basket from "components/Basket";
 
 const Wrapper = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header />
       <Basket />
       <Switch>

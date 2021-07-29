@@ -29,9 +29,9 @@ const OrderModal = () => {
         onClick={(e) => {
           e.stopPropagation();
         }}
-        className="border-2 container py-2 sm:py-10 bg-white rounded-md bg-opacity-95 pb-20 px-5 pt-20 overflow-y-auto"
+        className="border-2 container py-2 sm:py-10 bg-white rounded-md bg-opacity-95 pb-20 px-5 sm:pt-20 overflow-y-auto"
       >
-        <div className="w-full font-semibold text-3xl text-center pt-3 mb-3  sm:mt-0">
+        <div className="w-full font-semibold text-2xl md:text-3xl text-center pt-3 sm:mb-3  sm:mt-0">
           <div className="">{selectedMenu.name}</div>
         </div>
         <div className="grid  md:grid-cols-3 py-10 ">
@@ -91,7 +91,7 @@ const OrderModal = () => {
               selectedMenu?.subMenus?.every?.((menu: any) => menu.selected)
                 ? " cursor-pointer"
                 : " cursor-not-allowed"
-            }  w-max mr-10 mx-auto block font-bold text-center  text-2xl p-2 sm:p-5 sm:mt-8 h-max border-2 border-black hover:bg-black hover:text-white transition duration-500`}
+            }  w-max mr-10 mx-auto block font-bold text-center  text-xl sm:text-2xl p-2 sm:p-5 sm:mt-8 h-max border-2 border-black hover:bg-black hover:text-white transition duration-500`}
           >
             Finish Order
           </button>

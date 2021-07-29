@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="container mx-auto flex justify-between items-center flex-col-reverse md:flex-row">
         <div className="flex flex-col w-full md:w-1/2  text-white items-start justify-around self-stretch px-10 md:px-0 ">
           <section className="md:text-left text-center">
-            <h2 className="text-5xl font-bold leading-tight">
+            <h2 className="text-3xl lg:text-5xl font-bold leading-tight">
               Your usual dinner service. But better.
             </h2>
-            <p className="text-2xl text-white opacity-80 mt-5">
+            <p className="text-xl md:text-2xl text-white opacity-80 mt-5">
               Make your order to taste that delicious meal.
             </p>
           </section>
@@ -25,7 +25,11 @@ const Hero = () => {
             Order Now
           </div>
         </div>
-        <img className="rounded-lg" src={Image} alt="isvec kofte" />
+        <img
+          className="rounded-lg px-10 mb-10  lg:px-0"
+          src={Image}
+          alt="isvec kofte"
+        />
       </div>
     </div>
   );

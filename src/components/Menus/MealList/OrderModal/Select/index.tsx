@@ -42,8 +42,10 @@ const Select: FC<Props> = ({ name, selectedMenu }) => {
   }, []);
 
   return (
-    <div className="mt-10 first:mt-0">
-      <div className="font-bold text-xl mb-2">{data.description}</div>
+    <div className="mt-3 md:mt-10 first:mt-0">
+      <div className="font-bold text-sm sm:text-xl mb-2">
+        {data.description}
+      </div>
       <select
         onInput={handleInput}
         className="-border--main-color border-2 w-full py-2 pl-2"
